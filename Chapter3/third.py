@@ -1,21 +1,42 @@
-''' Assume that we execute the following assignment statements:
+'''Exercise 3: Write a program to prompt for a score between 0.0 and
+1.0. If the score is out of range, print an error message. If the score is
+between 0.0 and 1.0, print a grade using the following table:
 
-width = 17
-height = 12.0
+Score Grade
+>= 0.9 A
+>= 0.8 B
+>= 0.7 C
+>= 0.6 D
+< 0.6 F
 
-For each of the following expressions, write the value of the expression and the
-type (of the value of the expression).
+Enter score: 0.95
+A
 
-1. width//2
-2. width/2.0
-3. height/3
-4. 1 + 2 * 5 '''
+Enter score: perfect
+Bad score
 
-width = 17
-height = 12.0
+Enter score: 10.0
+Bad score
 
-print(width//2)  #1
-print(width/2.0)  #2    
-print(height/3)  #3
-print(1+2*5)  #4
+Enter score: 0.75
+C
+'''
+
+prompt = input("Enter a score: ")
+try:
+    score = float(prompt)
+    if score >= 1.0 or score < 0:
+        print("Bad score")
+    elif score >= 0.9:
+        print("A")
+    elif score >= 0.8:
+        print("B")
+    elif score >= 0.7:
+        print("C")
+    elif score >= 0.6:
+        print("D")
+    else:
+        print("F")
+except:
+    print('Bad score')
 

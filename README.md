@@ -1,22 +1,41 @@
 # Python For Everybody py4e by Charles Severance
 
-This repo will solve the all 4 problems of chapter 2 of the book Python for Everybody
+## Chapter 2
 
-## Chapter 3
-1. Write a program that uses input to prompt a user for their name and then welcomes them.
-2. Write a program to prompt the user for hours and rate per hour to compute gross pay.
-3. Assume that we execute the following assignment statements:
-    width = 17
-    height = 12.0
+## Chapter 3 - Conditions
 
-    For each of the following expressions, write the value of the expression and the
-    type (of the value of the expression).
+## Chapter 4 - Functions
 
-    1. width//2
-    2. width/2.0
-    3. height/3
-    4. 1 + 2 * 5
+Void Functions
+Void functions might display something on the screen or have some other effect,
+but they don’t have a return value. If you try to assign the result to a variable,
+you get a special value called None.
+>>> result = print_twice('Bing')
+Bing
+Bing
+>>> print(result)
+None
 
-4. Write a program which prompts the user for a Celsius temperature, convert the temperature to Fahrenheit, and print out the converted temperature.
+Fruitful Functions
+To return a result from a function, we use the return statement in our function.
+For example, we could make a very simple function called addtwo that adds two
+numbers together and returns a result.
 
-## Chapter 4 - Conditions
+def addtwo(a, b):
+    added = a + b
+    return added
+
+x = addtwo(3, 5)
+print(x)
+
+Summary
+Functions
+Built-In Functions
+Type conversion (int, float)
+String conversions
+Parameters
+Arguments
+Results (fruitful functions)
+Void (non-fruitful) functions
+Why use functions?
+

@@ -1,6 +1,17 @@
-# Write a program to prompt the user for hours and rate per hour to compute gross pay.
+''' Exercise 2: Rewrite your pay program using try and except so that your
+program handles non-numeric input gracefully by printing a message
+and exiting the program. The following shows two executions of the
+program:'''
 
-hours = int(input("Enter hours: "))
-rate = float(input("Enter tax rate: "))
-pay = hours * rate
-print("Pay:", pay)
+hours = input("Enter hours: ")
+rate = input("Enter tax rate: ")
+try:
+    numh = int(hours)
+    numr = int(rate)
+    if numh <= 40:
+        pay = numh * numr
+    else:
+        pay = 40 * numr + (numh - 40) * numr * 1.5
+    print("Pay:", pay)
+except:
+    print("Error, please enter numeric input")
