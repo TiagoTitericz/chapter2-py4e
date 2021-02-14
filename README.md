@@ -39,3 +39,22 @@ Results (fruitful functions)
 Void (non-fruitful) functions
 Why use functions?
 
+## Chapter 5 - Loop Iterations
+
+Logical Operators - Is and Is Not
+Dont´t use Is or Is Not with Integer, Float or Strings variables types. Use them only for None and Boolean variables types
+
+
+Summary
+While loops (indefinite)
+Infinite loops
+Using break
+Using continue
+None constants and variables
+For loops (definite)
+Iteration variables
+Loop idioms
+Largest or smallest
+
+
+
