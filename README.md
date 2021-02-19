@@ -56,5 +56,20 @@ Iteration variables
 Loop idioms
 Largest or smallest
 
+## Chapter 6 - Strings
+
+Summary
+String type
+Read/Convert
+Indexing strings []
+Slicing strings [2:4]
+Looping through strings with for and while
+Concatenating strings with  +
+String operations 
+String library
+String comparisons
+Searching in strings
+Replacing text
+Stripping white space
 
 
