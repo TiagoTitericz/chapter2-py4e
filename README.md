@@ -72,4 +72,16 @@ Searching in strings
 Replacing text
 Stripping white space
 
+## Chapter 7 - Files
+
+Summary
+Secondary storage
+Opening a file - file handle
+File structure - newline character
+Reading a file line by line with a for loop
+Searching for lines
+Reading file names
+Dealing with bad files
+
+
 
