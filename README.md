@@ -83,5 +83,43 @@ Searching for lines
 Reading file names
 Dealing with bad files
 
+## Chapter 8 - Lists
+- Most list methods are void; they modify the list and return None. Example  t = t.sort() return an error
+- Deleting elements:
+pop: modifies the list and returns the element that was removed. Ex: x = t.pop(1)
+del: If you don't need the removed value, you can use the del operator. Ex: del t[1]    
+remove: The return value from remove is None. Ex: t.remove('b')
+- Adding elements
+t = [1, 2, 3, 4]
+print(t) #[1, 2, 3, 4]
 
+t.append(5) #RIGHT
+t = t + [5] #RIGHT
+print(t) #[1, 2, 3, 4, 5]
+
+t.append([5]) #WRONG! A NESTED LIST WILL BE ADDED O THE t LIST
+#[1, 2, 3, 4, [5]]
+
+t = t.append(5) #WRONG! None will be printed out
+
+t + [5] # WRONG! Nothing happen here
+
+t = t + 5 # WRONG! A integer cant´t be concatened with lists
+
+Summary
+Concept of a collection
+Lists and definite loops
+Indexing and lookup
+List mutability
+Functions: len, min, max, sum
+Slicing lists
+List methods: append,  remove
+Sorting lists
+Splitting strings into lists of words
+Using split to parse strings
+
+Exercise 1: Write a function called chop that takes a list and modifies
+it, removing the first and last elements, and returns None. Then write
+a function called middle that takes a list and returns a new list that
+contains all but the first and last elements.
 
