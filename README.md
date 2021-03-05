@@ -210,3 +210,15 @@ Enter a number: done
 Maximum: 9.0
 Minimum: 2.0
 
+## Chapter 9 - Dictionaries
+
+Summary
+What is a collection?
+Lists versus Dictionaries
+Dictionary constants
+The most common word
+Using the get() method
+Hashing, and lack of order
+Writing dictionaries loops
+Sneak peek: tuples
+Sorting dictionaries
