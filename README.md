@@ -355,3 +355,10 @@ Enter file:mbox.txt
 Enter file:mbox-short.txt
 39756
 
+## Chapter 12 - Networked Programs
+
+Summary
+- The TCP/IP gives us pipes / sockets between applications
+- We designed application protocols to make use of these pipes
+- HyperText Transfer Protocol (HTTP) is a simple yet powerful protocol
+- Python has good support for sockets, HTTP, and HTML parsing
