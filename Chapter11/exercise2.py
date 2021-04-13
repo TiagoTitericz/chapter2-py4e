@@ -20,6 +20,7 @@ fhand = open(fname)
 listy = list()
 for line in fhand:
     x = re.findall('^New Revision: ([0-9]+)', line)
+    print(x[0])
     if len(x) > 0:
         number = int(x[0])
         listy.append(number)
