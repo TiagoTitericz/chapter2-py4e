@@ -389,3 +389,9 @@ small web pages as well as some larger web pages.
 Exercise 5: (Advanced) Change the socket program so that it only shows
 data after the headers and a blank line have been received. Remember
 that recv receives characters (newlines and all), not lines.
+
+## Chapter 13 - Web Services
+
+Exercise 1: Change either geojson.py or geoxml.py to print out the two character country code from the retrieved data. Add error checking so your program does not traceback if the country code is not there. Once
+you have it working, search for “Atlantic Ocean” and make sure it can
+handle locations that are not in any country.
